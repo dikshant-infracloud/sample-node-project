@@ -4,7 +4,7 @@ GEREKLİ PAKETLER YÜKLENİYOR...
 
 */
 var http = require('http');
-var express = require('express');
+var express = require('express')
 
 var app = express();
 
@@ -21,5 +21,5 @@ HTTP SERVER OLUŞTURULDU
 
 */
 http.createServer(app).listen(app.get('port'), function(){
-	console.log('Sistem ' + app.get('port') + ' Portu Üzerinde Çalışıyor.');
+	console.log('Sistem ' + app.get('port') + ' Portu Üzerinde Çalışıyor.')
 });
