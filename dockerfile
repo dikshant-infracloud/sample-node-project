@@ -1,4 +1,4 @@
-FROM n
+FROM scratch
 
 WORKDIR /app
 COPY package.json ./
